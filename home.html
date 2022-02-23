@@ -1,0 +1,229 @@
+<!doctype html>
+<html>
+    <head>
+        <title> car detailing </title>
+        <link type="text/css" rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lobster&display=swap" rel="stylesheet">
+        <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+    </head>
+      
+    <body>
+        <section id=banner> 
+            <img class="logo" src="">
+            <div class="banner-text">
+                <h1> carshine detailing  </h1>
+                <p> Specialized paint services </p>
+                <div class="banner-btn">
+                    <a href="#"> <span></span> out </a>
+                    <a href="#"> <span></span> read me </a>
+                </div>
+            </div>
+        </section>
+
+        <div id="sidenav">
+            <nav>
+                <ul>
+                    <li><a href="#banner"> home </a></li>
+                    <li><a href="#features"> features </a></li>
+                    <li><a href="#service"> services </a></li>
+                    <li><a href="#testimonial"> testmonate </a></li>
+                    <li><a href="#footer"> meet us </a></li>
+                </ul>
+            </nav>
+
+        </div>
+
+
+    <div id="menubtn">
+        <img src="pic/menu (1).png" id="menu">
+    </div>
+
+
+    <!--features-->
+    <section id="features">
+      <div class="title-text">
+        <p> property </p>
+        <h1> Exprience </h1>
+      </div>  
+      <div class="features-box">
+          <div class="features">
+              <h1> exprienced staff </h1>
+              <p> "To our valued clients. We are pleased to inform you that we are open during this difficult time. We are offering a complete touchless service by wearing gloves and masks as well as collecting payment remotely over the phone. Our steam sterilizations have been proven to el…" </p>
+          </div>
+
+          <div class="features-img">
+            <img src="pic/pexels-tima-miroshnichenko-6872151.jpg">
+        </div>
+      </div>
+    </section>
+
+
+    <script>
+      var menubtn = document.getElementById("menubtn") 
+      var menu = document.getElementById("menu")
+      var sidenav = document.getElementById("sidenav")
+      
+      sidenav.style.right = "-200px"
+      menubtn.onclick = function(){
+          if(sidenav.style.right == "-200px"){
+              sidenav.style.right = "0"
+              menu.src = "pic/close (1).png";
+          }
+          else{
+              sidenav.style.right = "-200px"
+              menu.src = "pic/menu (1).png";
+          }
+      }
+
+      var scroll = new SmoothScroll('a[href*="#"]', {
+	speed: 1000,
+	speedAsDuration: true
+});
+
+    </script>
+
+
+<!--service-->
+
+    <section id="service">
+        <div class="title-text">
+            <p> services </p>
+            <h1> lnlfc  </h1>
+        </div>
+        
+        <div class="service-box">
+            <div class="single-service"> 
+                <img src="pic/man-polishing-car-inside-car-service.jpg">
+                <div class="overlay"> 
+                </div>
+                <div class="service-discription">
+                    <h1> MARSHALLTOWN, Iowa </h1>
+                    <hr>
+                    <p> Champion Xpress Carwash has entered a new market with the acquisition of Rainbow Car Wash in Marshalltown, Iowa, according to a press release </p>
+                </div>
+            </div>
+
+            <div class="single-service"> 
+                <img src="pic/man-washing-his-car-garage.jpg">
+                <div class="overlay"> 
+                </div>
+                <div class="service-discription">
+                    <h1> MARSHALLTOWN, Iowa </h1>
+                    <hr>
+                    <p> Champion Xpress Carwash has entered a new market with the acquisition of Rainbow Car Wash in Marshalltown, Iowa, according to a press release </p>
+                </div>
+            </div>
+
+            <div class="single-service"> 
+                <img src="pic/car-wash-detailing-station (1).jpg">
+                <div class="overlay"> 
+                </div>
+                <div class="service-discription">
+                    <h1> MARSHALLTOWN, Iowa </h1>
+                    <hr>
+                    <p> Champion Xpress Carwash has entered a new market with the acquisition of Rainbow Car Wash in Marshalltown, Iowa, according to a press release </p>
+                </div>
+            </div>
+
+            <div class="single-service"> 
+                <img src="pic/car-wash-detailing-station.jpg">
+                <div class="overlay"> 
+                </div>
+                <div class="service-discription">
+                    <h1> MARSHALLTOWN, Iowa </h1>
+                    <hr>
+                    <p> Champion Xpress Carwash has entered a new market with the acquisition of Rainbow Car Wash in Marshalltown, Iowa, according to a press release </p>
+                </div>
+            </div>
+
+            <div class="single-service"> </div>
+            <div class="single-service"> </div>
+            <div class="single-service"> </div>
+        </div>
+        </section>
+
+        <!--testimonial-->
+
+
+    <section id="testimonial">
+    <div class="title-text">
+        <p> testimonial  </p>
+        <h1> our client say  </h1>
+    </div>
+
+    <div class="testimonial-row">
+        
+        <div class="testimonial-col">
+            <div class="user"> 
+                <img src="pic/alex.jpg">
+                <div class="user-info">
+                    <h4> alex </h4>
+                </div>
+            </div>
+            <p> We help Marketing Teams and Agencies reduce their document approval process duration. Document review made simple with our Online Proofing Tools </p>
+        </div>
+        <div class="testimonial-col">
+            <div class="user">
+                <img src="pic/3052.png_860.png">
+                <div class="user-info">
+                    <h4> tom </h4>
+                </div>
+            </div>
+            <p>We help Marketing Teams and Agencies reduce their document approval process duration. Document review made simple with our Online Proofing Tools</p>
+        </div>
+        <div class="testimonial-col">
+            <div class="user">
+                <img src="pic/images(1).jpg">
+                <div class="user-info">
+                    <h4> mary </h4>
+                </div>
+            </div>
+            <p>We help Marketing Teams and Agencies reduce their document approval process duration. Document review made simple with our Online Proofing Tools</p>
+        </div>
+    </div>
+    </section>
+
+    <!--/testimonial-->
+
+    <!--footer-->
+
+    <section id="footer">
+        <div class="title-text">
+            <p> contact us </p>
+            <h1> visit shop today  </h1>
+        </div>
+
+        <div class="footer-row">
+            <div class="footer-left">
+                <h1>ساعات کار</h1>
+                <p>  Monday: 8:00 am - 5:00 pm
+
+		Tuesday: 8:00 am - 5:00 pm </br>
+
+		Wednesday: 8:00 am - 5:00 pm </br>
+
+		Thursday: 8:00 am - 5:00 pm  </br>
+
+		Friday: 8:00 am - 5:00 pm </br>
+
+		Saturday: 8:00 am - 5:00 pm </br>
+
+		Sunday: 9:00 am - 5:00 pm</p>
+                
+            </div>
+
+            <div class="footer-right">
+                <h1> address </h1>
+                <p> mashhad, bulvar daneshamooz</p>
+                <p> email: ditalingsafecar@yahoo.com </p>
+                <p> 09010339745 </p>
+            </div>
+        </div>
+    </section>
+    
+
+</body>
+
+</html>
