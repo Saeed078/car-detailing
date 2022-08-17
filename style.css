@@ -3,6 +3,15 @@
     padding: 0;
     font-family:'Bebas Neue', cursive;
 }
+
+#scroll {
+    height: 3px;
+    background-color: #00DBDE;
+    background-image: linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%);
+    position: fixed;
+    z-index: 1;
+}
+
 #banner{
     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(97, 9, 121, 0.233) 40%, rgba(0, 213, 255, 0.288) 100%), url(pic/pexels-tima-miroshnichenko-6873186.jpg);
     background-size: cover;

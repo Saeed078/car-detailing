@@ -10,6 +10,7 @@
     </head>
       
     <body>
+        <div id="scroll"></div>
         <section id=banner> 
             <img class="logo" src="">
             <div class="banner-text">
@@ -60,30 +61,7 @@
     </section>
 
 
-    <script>
-      var menubtn = document.getElementById("menubtn") 
-      var menu = document.getElementById("menu")
-      var sidenav = document.getElementById("sidenav")
-      
-      sidenav.style.right = "-200px"
-      menubtn.onclick = function(){
-          if(sidenav.style.right == "-200px"){
-              sidenav.style.right = "0"
-              menu.src = "pic/close (1).png";
-          }
-          else{
-              sidenav.style.right = "-200px"
-              menu.src = "pic/menu (1).png";
-          }
-      }
-
-      var scroll = new SmoothScroll('a[href*="#"]', {
-	speed: 1000,
-	speedAsDuration: true
-});
-
-    </script>
-
+    <script src="main.js"> </script>
 
 <!--service-->
 
